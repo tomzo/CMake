@@ -18,5 +18,5 @@ int main() {
 	for (int i = 0; i < localN; i++)
 		std::cout << localFloat[i] << std::endl;
 
-	return 1;
+	return 0;
 }
