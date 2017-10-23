@@ -1,5 +1,5 @@
 # Append current NVCC flags by something, eg comput capability
-set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} --gpu-architecture sm_20)
+set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} --gpu-architecture sm_35)
 
 set(CUDASRCS 
 	main.cu 
